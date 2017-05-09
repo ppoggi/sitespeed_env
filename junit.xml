@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="sitespeed.io.www_epicgames_com._" tests="17" failures="15" errors="0" skipped="0">
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.rumSpeedIndex.mean">
+      <failure message="statistics.timings.rumSpeedIndex.mean is 1059 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.firstPaint.mean">
+      <failure message="statistics.timings.firstPaint.mean is 1059 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.fullyLoaded.mean">
+      <failure message="statistics.timings.fullyLoaded.mean is 3251 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.navigationTiming.connectEnd.mean">
+      <failure message="statistics.timings.navigationTiming.connectEnd.mean is 320 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.navigationTiming.connectStart.mean">
+      <failure message="statistics.timings.navigationTiming.connectStart.mean is 320 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.navigationTiming.domComplete.mean">
+      <failure message="statistics.timings.navigationTiming.domComplete.mean is 3111 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.navigationTiming.domContentLoadedEventEnd.mean">
+      <failure message="statistics.timings.navigationTiming.domContentLoadedEventEnd.mean is 1722 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.navigationTiming.domContentLoadedEventStart.mean">
+      <failure message="statistics.timings.navigationTiming.domContentLoadedEventStart.mean is 1317 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.backEndTime.mean">
+      <failure message="statistics.timings.pageTimings.backEndTime.mean is 390 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.backEndTime.mean">
+      <failure message="statistics.timings.pageTimings.backEndTime.mean is 390 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.frontEndTime.mean">
+      <failure message="statistics.timings.pageTimings.frontEndTime.mean is 2718 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.pageDownloadTime.mean">
+      <failure message="statistics.timings.pageTimings.pageDownloadTime.mean is 3 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.pageLoadTime.mean">
+      <failure message="statistics.timings.pageTimings.pageLoadTime.mean is 3111 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.redirectionTime.mean">
+      <failure message="statistics.timings.pageTimings.redirectionTime.mean is 320 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.serverResponseTime.mean">
+      <failure message="statistics.timings.pageTimings.serverResponseTime.mean is 47 ms and limit max 1 ms https://www.epicgames.com"/>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.domainLookupTime.mean">
+      <system-out>
+        <![CDATA[statistics.timings.pageTimings.domainLookupTime.mean is 0 ms and limit max 1 ms https://www.epicgames.com]]>
+      </system-out>
+    </testcase>
+    <testcase classname="www_epicgames_com._" name="browsertime.pageSummary.statistics.timings.pageTimings.domainLookupTime.mean">
+      <system-out>
+        <![CDATA[statistics.timings.pageTimings.domainLookupTime.mean is 0 ms and limit max 1 ms https://www.epicgames.com]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
