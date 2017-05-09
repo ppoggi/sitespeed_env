@@ -1,0 +1,81 @@
+{
+  "gpsi.pageSummary":[{
+    "metric":"ruleGroups.SPEED.score",
+    "min":1
+    }],
+  "browsertime.pageSummary": [
+    {
+      "metric": "statistics.timings.rumSpeedIndex.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.firstPaint.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.fullyLoaded.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.navigationTiming.connectEnd.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.navigationTiming.connectStart.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.navigationTiming.domComplete.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.navigationTiming.domContentLoadedEventEnd.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.navigationTiming.domContentLoadedEventStart.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.backEndTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.backEndTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.frontEndTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.domainLookupTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.domainLookupTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.pageDownloadTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.pageLoadTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.redirectionTime.mean",
+      "max": 1
+    },
+    {
+      "metric": "statistics.timings.pageTimings.serverResponseTime.mean",
+      "max": 1
+    }],
+  "coach.summary":[
+    {
+      "metric":"score",
+      "max":1
+    }
+  ]
+}

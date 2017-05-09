@@ -1,0 +1,32 @@
+{
+  "browsertime": {
+    "connectivity": {
+      "profile": "cable"
+    },
+    "iterations": 1,
+    "browser": "chrome",
+    "experimental": {
+      "video": true
+    }
+  },
+  "gpsi":{
+    "key":"AIzaSyDaEbOtzsHOHWI_Qi8m92w4Hh-tDAsRPLg"
+  },
+  "epic":{
+    "filters":["pagexray.pageSummary","coach.pageSummary","aggregateassets.summary",
+    "largestassets.summary","slowestassets.summary","browsertime.summary","coach.summary",
+    "pagexray.summary", "domains.summary"],
+    "hostedApiKey":"3db2d3c6-8c2e-4148-932c-006318e5d19e",
+    "hostedPort": 2003,
+    "hostedHostName": "84694207.carbon.hostedgraphite.com"
+  },
+"plugins": {
+	"disable": ["html","screenshot","harstorer","screenshot"],
+  "load":"./hosted_graphite_plugin"
+	},
+  "budget":{
+    "configPath":"./budget.json",
+    "output":"junit"
+  },
+  "utc": true
+}
