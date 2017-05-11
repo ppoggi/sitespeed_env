@@ -31,10 +31,7 @@ module.exports = {
 
     if(readyData == null)
       return;
-    //TODO Test Only TODO Test Only TODO
-    if(readyData.length > 50)
-      readyData = readyData.slice(0,49);
-//^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^TEST ONLY
+
     const connector = new Connector(this.hostedPort, this.hostedHostName);
     connector.sendData(readyData);
   },
